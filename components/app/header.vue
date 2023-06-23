@@ -2,7 +2,7 @@
   <section class="md:fixed md:h-20 shadow-lg border-b z-30 md:bg-white w-full">
     <section class="container mx-auto relative hidden md:block">
       <NuxtLink to="/">
-        <img src="http://www.cdymzs.com/statics/pc/images/logo.jpg" class="inline-block h-9 md:h-16" alt="logo" />
+        <img src="/images/logo.png" class="inline-block h-9 md:h-16" alt="logo" />
       </NuxtLink>
       <ul class="hidden md:inline-flex ml-72 h-14 space-x-16 mt-7">
         <li v-for="(nav, i) in navs" class="group">
@@ -33,7 +33,7 @@
   </section>
   <div class="md:hidden flex justify-center w-full">
     <NuxtLink to="/">
-      <img src="http://www.cdymzs.com/statics/pc/images/logo.jpg" alt="logo" class="h-12" />
+      <img src="/images/logo.png" alt="logo" class="h-12" />
     </NuxtLink>
   </div>
   <div class="overflow-x-scroll md:hidden sticky bg-white shadow-md top-0 z-50 w-full overflow-hidden whitespace-nowrap py-1.5 scro space-x-6 px-3">
