@@ -2,9 +2,9 @@
   <section class="md:fixed md:h-20 shadow-lg border-b z-30 md:bg-white w-full">
     <section class="container mx-auto relative hidden md:block">
       <NuxtLink to="/">
-        <img src="/images/logo.png" class="inline-block h-9 md:h-16" alt="logo" />
+        <img src="/images/logo.png" class="inline-block h-5 md:h-10" alt="logo" />
       </NuxtLink>
-      <ul class="hidden md:inline-flex ml-72 h-14 space-x-16 mt-7">
+      <ul class="hidden md:inline-flex ml-64 h-14 space-x-16 mt-7">
         <li v-for="(nav, i) in navs" class="group">
           <NuxtLink :to="nav.url" class="flex items-center hover:text-red-600">
             {{nav.title}}
